@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 900;
+    src: url('#{resource["font/IRANSans/eot/IRANSansWeb_Black.eot"]}');
+    src: url('#{resource["font/IRANSans/eot/IRANSansWeb_Black.eot?#iefix"]}') format('embedded-opentype'), /* IE6-8 */
+    url('#{resource["font/IRANSans/woff2/IRANSansWeb_Black.woff2"]}') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('#{resource["font/IRANSans/woff/IRANSansWeb_Black.woff"]}') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('#{resource["font/IRANSans/ttf/IRANSansWeb_Black.ttf"]}') format('truetype');
+}
+body{
+    background: cornsilk;
+    font-family: 'IRANSans';
+    float: right;
+}
+
+h2{
+    color: red;
+    font-family: 'IRANSans';
+}
+text{
+    color: green;
+    font-family: 'IRANSans';
+}
+
+element.style {
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 6px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 6px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 6px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 6px;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
+    color: #004276;
+    text-decoration: none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #d8dcdf;
+    font-weight: bold;
+    color: #004276;
+}
+.ui-widget {
+    font-family: Arial,sans-serif;
+    font-size: 1.1em;
+}
+.ui-button, .ui-button:link, .ui-button:visited, .ui-button:hover, .ui-button:active {
+    text-decoration: none;
+}
+.ui-button {
+    padding: .4em 1em;
+    display: inline-block;
+    position: relative;
+    line-height: normal;
+    margin-right: .1em;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: visible;
+}
+user agent stylesheet
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 50px;
+}

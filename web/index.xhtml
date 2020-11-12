@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      dir="rtl"
+>
+<f:view>
+    <h:head>
+        <h:outputStylesheet library="css" name="passenger.css"/>
+    </h:head>
+    <h:body>
+        <h:outputLabel value="Hello, world" styleClass="text"/>
+        <h:form>
+            <h2>خرید بلیط</h2>
+            <h3>نام مسافر</h3>
+            <span class="ui-float-label">
+       <p:inputText id="float-input" value="#{passengerView.country.name}"/>
+       <p:outputLabel for="@previous" value="Passenger Name" />
+               <p:commandButton id="button" value="createPassenger" actionListener="#{passengerView.createCountry}" process="@this"
+                                styleClass="ui-button ui-corner-all ui-widget"/>
+               <p:commandButton value="save" actionListener="#{passengerView.save}"/>
+   </span>
+        </h:form>
+    </h:body>
+
+</f:view>
+</html>
